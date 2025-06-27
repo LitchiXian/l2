@@ -26,4 +26,17 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <finalName>l2</finalName>  <!-- 同样无需后缀 -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
