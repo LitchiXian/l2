@@ -35,6 +35,10 @@
                 <version>3.3.0</version>
                 <configuration>
                     <finalName>l2</finalName>  <!-- 同样无需后缀 -->
+                    <archive>
+                        <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+                        <addClasspath>false</addClasspath>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
